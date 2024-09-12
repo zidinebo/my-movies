@@ -1,0 +1,115 @@
+.signin {
+  margin-top: 83.99px;
+}
+
+.in-form {
+  position: relative;
+  background-color: #161d2f;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.in-title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: start;
+}
+
+.in-input {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.in-input input {
+  position: relative;
+  width: 100%;
+  padding: 0 15px 18px 15px;
+  background-color: #161d2f;
+  border: none;
+  border-bottom: 1px solid #5a698f;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.in-input input.error {
+  border-bottom: 1px solid #fc4747;
+}
+
+.in-input input:focus {
+  border-bottom: 1px solid #ffffff;
+  caret-color: #fc4747;
+}
+
+.in-input input::placeholder {
+  color: #5a698f;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.in-input button {
+  background-color: #fc4747;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 14.5px 0;
+  border-radius: 6px;
+}
+
+.in-input button:hover {
+  background-color: #ffffff;
+  color: #10141e;
+}
+
+.dont {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.dont p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.dont a {
+  text-decoration: none;
+  color: #fc4747;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.cant span {
+  position: absolute;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fc4747;
+  top: 1;
+  right: 32px;
+  margin-top: 5px;
+}
+
+.in-input .show-us {
+  position: absolute;
+  background-color: #161d2f;
+  width: 60px;
+  border: none;
+  color: #fc4747;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 6px;
+  right: 32px;
+  bottom: 0;
+}

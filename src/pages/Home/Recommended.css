@@ -1,0 +1,23 @@
+.recmaindata {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* gap: 5px; */
+}
+
+/* ========================================== */
+
+/* Media Query for tablets */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .recmaindata {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* ==================================== */
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 576px) {
+  .recmaindata {
+    grid-template-columns: 1fr 1fr;
+  }
+}

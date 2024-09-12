@@ -1,0 +1,156 @@
+.caro-contana {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.caro-omg {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+  transition: transform 1s ease-in-out;
+}
+
+.caro-con {
+  margin-top: 25px;
+  position: relative;
+}
+
+.caro-card .bookmark {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.caro-con .inner-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+}
+
+.caro-card {
+  width: 470px;
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+}
+
+.caro-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: brightness(70%);
+}
+
+.inner-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.inner-icons .rating {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+
+.inner-icons .movtits {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.inner-icons .rating {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.rating .type {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-button:disabled,
+.next-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.prev-button {
+  left: 0;
+}
+
+.next-button {
+  right: 0;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+/* ==================================== */
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .caro-omg {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    transition: transform 1s ease-in-out;
+  }
+
+  .caro-card {
+    width: 240px;
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .inner-icons .rating {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .inner-icons .movtits {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .inner-icons .rating {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .rating .type {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3px;
+  }
+}

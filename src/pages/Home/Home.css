@@ -1,0 +1,52 @@
+.movie-body {
+  margin-left: 164px;
+  margin-top: 20px;
+}
+
+.trend {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: start;
+}
+
+/* ======================================================= */
+
+.main-body {
+  margin-top: 40px;
+}
+
+.reco {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: start;
+}
+
+/* ========================================== */
+
+/* Media Query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .movie-body {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+}
+
+/* ==================================== */
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .movie-body {
+    margin-left: 16px;
+    margin-top: 12px;
+  }
+
+  .trend,
+  .reco {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: start;
+  }
+}

@@ -1,0 +1,59 @@
+.tvspage {
+  margin-top: 20px;
+  margin-left: 164px;
+}
+
+.tvspage h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: start;
+}
+
+.tvsscards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+/* ================================================= */
+
+/* Media Query for tab devices */
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+  .tvsscards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .tvspage {
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+
+  .tvspage h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: start;
+  }
+}
+
+/* ==================================== */
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 576px) {
+  .tvsscards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tvspage {
+    margin-top: 12px;
+    margin-left: 16px;
+  }
+
+  .tvspage h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: start;
+  }
+}
